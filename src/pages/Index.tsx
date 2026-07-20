@@ -219,7 +219,7 @@ const Index = () => {
                   <SelectValue placeholder="البحث بالصف" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">جميع الصفوف</SelectItem>
+                  <SelectItem value="all">جميع الصفوف</SelectItem>
                   {GRADES.map(grade => (
                     <SelectItem key={grade} value={grade.toString()}>
                       الصف {grade}
